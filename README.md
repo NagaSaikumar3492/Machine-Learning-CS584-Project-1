@@ -45,7 +45,8 @@ Learned coefficients, True coefficients, Sample predictions, MSE and R² score
  
 Coefficients bar plot, Actual vs predicted scatter, Residual plot, Loss convergence, LASSO predictions vs actual, True coefficient vs learned coefficient.
 
- =======================================================================================================================================
+ ==============================================================================================================
+
 ***QUESTIONS***
  
 **1. What does the model you have implemented do and when should it be used?**
