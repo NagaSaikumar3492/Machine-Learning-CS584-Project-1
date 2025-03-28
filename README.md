@@ -12,17 +12,17 @@
  
 **1. Setup Instructions to create virtual environment :**
  
-Step 1: ``` python3 -m venv venv``` 
+Step 1: ```python3 -m venv venv``` 
  
-Step 2: ``` source venv/bin/activate```  
+Step 2: ```source venv/bin/activate```  
  
 **2. Installation Steps:**
  
-Step 1: ``` pip install -r requirements.txt``` 
+Step 1: ```pip install -r requirements.txt``` 
  
-Step 2: Run the main model script : ``` python3 LassoHomotopy.py``` 
+Step 2: Run the main model script : ```python3 LassoHomotopy.py``` 
  
-Step 3: Run the tests: ``` pytest test_LassoHomotopy.py``` 
+Step 3: Run the tests: ```pytest test_LassoHomotopy.py``` 
  
 **3. Usage Example:**
  
