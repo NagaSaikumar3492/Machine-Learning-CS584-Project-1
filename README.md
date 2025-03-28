@@ -29,21 +29,14 @@ and update the below function with your desired values :-
  
 if __name__ == "__main__":
    print("Machine Learning Assignment...")
- 
-   ## Generate synthetic dataset
    np.random.seed(42)
    X = np.random.randn(50, 10)
    true_coefficients = np.array([1.5, -2.0, 0, 0, 3.0, 0, 0, -1.2, 0, 2.5])
    y = X @ true_coefficients + np.random.randn(50) * 0.1  # Add small Gaussian noise
- 
-   ## Initialize and train the model
    model = LassoHomotopy(lambda_val=0.1)
    model.fit(X, y)
- 
-   ## Evaluate performance
    model.evaluate(X, y)
- 
- 
+  
 **4. Outputs :**
  
 Learned coefficients, True coefficients, Sample predictions, MSE and R² score
@@ -52,8 +45,7 @@ Learned coefficients, True coefficients, Sample predictions, MSE and R² score
  
 Coefficients bar plot, Actual vs predicted scatter, Residual plot, Loss convergence, LASSO predictions vs actual, True coefficient vs learned coefficient.
  
- 
-QUESTIONS
+***QUESTIONS***
  
 **1. What does the model you have implemented do and when should it be used?**
  
