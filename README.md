@@ -32,18 +32,12 @@ and update the below function with your desired values :-
 if __name__ == "__main__":
 
    print("Machine Learning Assignment...")
-   np.random.seed(42)
-   
+   np.random.seed(42) 
    X = np.random.randn(50, 10)
-   
    true_coefficients = np.array([1.5, -2.0, 0, 0, 3.0, 0, 0, -1.2, 0, 2.5])
-   
    y = X @ true_coefficients + np.random.randn(50) * 0.1  # Add small Gaussian noise
-   
    model = LassoHomotopy(lambda_val=0.1)
-   
    model.fit(X, y)
-   
    model.evaluate(X, y)
   ```
 **4. Outputs :**
