@@ -28,11 +28,10 @@ Step 3: Run the tests: **pytest test_LassoHomotopy.py**
  
 To test with the below example please go to file LassoHomotopy.py
 and update the below function with your desired values :-
- 
+``` 
 if __name__ == "__main__":
 
    print("Machine Learning Assignment...")
-   
    np.random.seed(42)
    
    X = np.random.randn(50, 10)
@@ -46,7 +45,7 @@ if __name__ == "__main__":
    model.fit(X, y)
    
    model.evaluate(X, y)
-  
+  ```
 **4. Outputs :**
  
 Learned coefficients, True coefficients, Sample predictions, MSE and R² score
