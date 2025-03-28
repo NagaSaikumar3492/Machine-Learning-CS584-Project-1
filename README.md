@@ -1,10 +1,12 @@
 **Implementation of Lasso Regression using Homotopy method**
 
-Team Members:-
+**Team Members:-**
 1. Nikita Sharma ​    –  A20588827
 2. Naga Sai Kumar Potti –   A20539661
 3. Nikita Rai ​​    –   A20592025
 4. Stephen Amankwa​    –   A20529876
+
+ =====================================================================================================
  
 **LASSO Homotopy Regression**
  
